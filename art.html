@@ -24,35 +24,46 @@ div.sticky {
   height: 400px;
   top: 0;
 }
+ 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #e8e9eB;
+  overflow: hidden;
+  }
+  
+  li {
+  float: left;
+  }
+  
+  li a{
+  display: block;
+  color: pink;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+  background-color: #f7fff7;
+  }
+  
+  .active {
+  background-color: #e8e9eB;
+  }
   
   
-body {
-margin:0;
-font-family: Courier-New, Courier, Trebuchet-MS;
-}
-
-.topnav {
-overflow: hidden;
-background-color: #333;
-}
-
-.topnav a {
-float: left;
-color: #f2f2f2;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
-font-size: 17px;
-}
-
-.topnav a.hover {
-background-color: #f7fff7;
-color: pink;
-}
-
-.topnav a.active {
-background-color: #f7fff7;
-color: pink;
-}
+  body {
+  background-color: white;
+  margin:0;
+  font-family: Courier-New, Courier, Trebuchet-MS;
+  }
+  
+ h1 {
+  color: #f7cacd;
+  text-align: center;
+  font-size: 50px;
+  }
 
 </style>
